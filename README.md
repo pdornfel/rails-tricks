@@ -1,8 +1,8 @@
 A place for tricks of the trade.
 
 # Table of Contents
-1. [CSS](#CSS)
-2. [JQuery](#jQuery)
+1. [CSS](#css)
+2. [jQuery](#jquery)
 
 
 # CSS
@@ -31,7 +31,7 @@ a:hover {
     color: #FF00FF;
 }
 ```
-# JQuery
+# jQuery
 
 shorthand document ready function
 ```
