@@ -3,6 +3,7 @@ A place for tricks of the trade.
 # Table of Contents
 1. [CSS](#css)
 2. [jQuery](#jquery)
+3. [Random](#random)
 
 
 # CSS
@@ -40,3 +41,15 @@ $(function(){
 });
 ```
 
+# Random
+
+to tunnel to localhost:3000 on the same network for mobile testing (besides running the ios simulator on xcode)
+
+`$ipconfig` from the command line
+
+`en0` = ethernet0
+`en2` = ethernet1
+
+look for inet for ethernet0 (wifi) or ethernet1 (ethernet) 
+
+`<inet>:3000` will forward to your static ip on your network and forward to port 3000
