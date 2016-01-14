@@ -45,7 +45,7 @@ $(function(){
 
 to tunnel to localhost:3000 on the same network for mobile testing (besides running the ios simulator on xcode)
 
-`$ipconfig` from the command line
+`$ifconfig` from the command line
 
 `en0` = ethernet0
 `en2` = ethernet1
