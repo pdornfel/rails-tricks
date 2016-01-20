@@ -4,6 +4,7 @@ A place for tricks of the trade.
 1. [CSS](#css)
 2. [jQuery](#jquery)
 3. [Random](#random)
+4. [Hashes](#hashes)
 
 
 # CSS
@@ -53,3 +54,9 @@ to tunnel to localhost:3000 on the same network for mobile testing (besides runn
 look for inet for ethernet0 (wifi) or ethernet1 (ethernet) 
 
 `<inet>:3000` will forward to your static ip on your network and forward to port 3000
+
+# Hashes
+
+cool way to rename keys in a hash
+
+`hash[:new_key] = hash.delete(:old_key)`
